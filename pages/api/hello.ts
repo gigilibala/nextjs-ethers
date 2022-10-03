@@ -1,13 +1,13 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from 'next'
+import { ethers } from "ethers-ts";
+import type { NextApiRequest, NextApiResponse } from "next";
+import { useState } from "react";
 
 type Data = {
-  name: string
-}
+    name: string;
+};
 
 export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
-) {
-  res.status(200).json({ name: 'John Doe' })
-}
+    req: NextApiRequest,
+    res: NextApiResponse<Data>
+) {}
