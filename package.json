@@ -7,7 +7,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "export": "next export"
+        "export": "next export",
+        "test": "echo 'hello'"
     },
     "dependencies": {
         "@walletconnect/web3-provider": "^1.8.0",
